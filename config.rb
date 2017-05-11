@@ -1,5 +1,6 @@
 activate :directory_indexes
 activate :autoprefixer
+activate :sprockets
 
 set :relative_links, true
 set :css_dir, "assets/stylesheets"
@@ -23,4 +24,5 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
+  deploy.branch = "master"
 end

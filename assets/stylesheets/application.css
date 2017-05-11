@@ -366,7 +366,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Fira Sans";
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -409,7 +409,7 @@ label {
 input,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Fira Sans";
   font-size: 1em; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
@@ -421,7 +421,7 @@ select[multiple] {
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Fira Sans";
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -504,7 +504,8 @@ th {
 
 body {
   color: #333;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Fira Sans";
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -514,7 +515,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Fira Sans";
+  font-weight: 600;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -551,21 +553,81 @@ html {
           box-sizing: inherit; }
 
 body {
-  background-color: #ddd;
-  color: #999; }
+  color: #333; }
 
-.delete-me {
+.splash {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #3cafaf;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 250px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh; }
-  .delete-me .container {
-    text-align: center; }
-    .delete-me .container h1 {
-      font-weight: 200; }
+          justify-content: center; }
+  @media screen and (min-width: 600px) {
+    .splash {
+      height: 500px; } }
+  .splash__center {
+    text-align: center;
+    margin: 1.5em; }
+    .splash__center h2 {
+      font-size: 2rem;
+      font-weight: 200;
+      letter-spacing: 2px;
+      margin-top: -1.5rem; }
+      @media screen and (min-width: 600px) {
+        .splash__center h2 {
+          font-size: 3rem;
+          margin-top: -3rem; } }
+    .splash__center img {
+      height: auto;
+      width: 800px; }
+    .splash__center .description {
+      font-size: 1.5rem;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin-top: 1.5em; }
+      @media screen and (min-width: 600px) {
+        .splash__center .description {
+          font-size: 2rem; } }
+
+.section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em; }
+  .section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .section h2 {
+    color: #3cafaf;
+    font-size: 1.77689em;
+    letter-spacing: 1px; }
+  .section p, .section ul, .section ol, .section table {
+    font-size: 1.25em;
+    margin-bottom: 1.5em; }
+    @media screen and (min-width: 600px) {
+      .section p, .section ul, .section ol, .section table {
+        font-size: 1.45em; } }
+  .section ul, .section ol {
+    padding-left: 1.5em; }
+  .section ol {
+    list-style: decimal; }
+  .section ul {
+    list-style-type: disc; }
+  .section__inner {
+    margin: 1.5em; }
+    @media screen and (min-width: 600px) {
+      .section__inner {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%;
+        margin-left: 8.5298%; }
+        .section__inner:last-child {
+          margin-right: 0; } }

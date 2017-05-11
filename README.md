@@ -1,88 +1,36 @@
-# thoughtbot Middleman Starter
+# Getty Code Camp
+## A Friendly Introduction to the Web, Summer 2017
 
-**Note:** This project is no longer being actively maintained.
+### Why code camp?
 
-## About
+The idea behind code camp is to build a common language across working with
+the web. Are you a novice Teamsite user? Work closely with developers, but
+on the non-technical side? Want to learn more about how the web works and is
+put together? Then code camp is for you!
 
-This starter kit for Middleman follows the
-[thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
-favorite front end tools.
+### When is code camp?
 
-## About Middleman
+Code camp will be on **Wednesdays from 5:00 pm – 6:30 pm** starting on **June 7th**
+over a six-week period (skipping the week of 4th of July.)
 
-Middleman is a static site generator built in Ruby. This makes it a great fit
-for projects that may end up as a Ruby on Rails app. Its minimalistic structure
-makes it very easy to work with, and includes support for deploying to Github
-Pages.
+### What should I know before signing up?
 
-## Includes
+1. Each session will build upon the previous. Because of that, we ask that
+  everyone who registers commit to attend all sessions.
+2. Camp will be limited to the first 15 people who register. Early bird gets the `<worm />`.
+3. This is a FREE program for Getty employees. Learn a new skill at no cost to you!
+4. Coder fuel (ie. pizza and soda) provided for all code campers.
 
-* [HAML](http://haml.info):
-  Simple template markup
-* [Coffeescript](http://coffeescript.org):
-  Write javascript with simpler syntax
-* [Sass (LibSass)](http://sass-lang.com):
-  CSS with superpowers
-* [Bourbon](http://bourbon.io):
-  Sass mixin library
-* [Neat](http://neat.bourbon.io):
-  Semantic grid for Sass and Bourbon
-* [Bitters](http://bitters.bourbon.io):
-  Scaffold styles, variables and structure for Bourbon projects.
-* [Middleman Live Reload](https://github.com/middleman/middleman-livereload):
-  Reloads the page when files change
-* [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
-  Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
+### What will be covered in this camp?
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns and [Proteus](http://github.com/thoughtbot/proteus) for a collection of useful
-starter kits to help you prototype faster.
+Session 1 (6/7)  | Tools of the Web (Github, Text Editors, etc.)
+Session 2 (6/14) | Structure of the Web (HTML)
+Session 3 (6/21) | Style of the Web (CSS)
+Session 4 (6/28) | Responsiveness of the Web (Best Practices)
+Session 5 (7/12) | Celebration of the Web (Capstone Project Show and Tell)
 
-## Getting Started
+### How do I register?
 
-Set up your project in your code directory
-```
-git clone https://github.com/thoughtbot/proteus-middleman.git your-project-folder
-cd your-project-folder
-git remote rm origin
-git remote add origin your-git-url
-```
+Register online at [http://bit.ly/gettycodecamp2017](http://bit.ly/gettycodecamp2017).
 
-Install dependencies:
-```
-bundle install
-```
 
-Run the server
-```
-bundle exec middleman
-```
-
-Deploy to Github Pages
-```
-bundle exec middleman deploy
-```
-
-Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
-
-## Directories
-
-Stylesheets, fonts, images, and JavaScript files go in the `/source/assets/` directory.
-Vendor stylesheets and JavaScripts should go in each of their `/vendor/` directories.
-
-## Contributing
-
-If you have problems, please create a
-[GitHub Issue](https://github.com/thoughtbot/proteus-middleman/issues).
-
-Have a fix or want to add a feature?
-[Pull Requests](https://github.com/thoughtbot/proteus-middleman/pulls) are welcome!
-
-## Credits
-
-[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
-
-thoughtbot Middleman Starter is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-middleman/contributors)!
-
-## License
-
-Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). thoughtbot Middleman Starter is free software, and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md).

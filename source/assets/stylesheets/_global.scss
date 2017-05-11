@@ -1,19 +1,78 @@
 body {
-  background-color: $light-gray;
-  color: $medium-gray;
+  color: $dark-gray;
 }
 
-.delete-me {
+.splash {
   align-items: center;
+  background-color: $turquoise;
+  color: #fff;
   display: flex;
+  height: 250px;
   justify-content: center;
-  height: 100vh;
 
-  .container {
+  @include media($medium-screen-up) { height: 500px; }
+
+  &__center {
     text-align: center;
+    margin: $base-spacing;
 
-    h1 {
+    h2 {
+      font-size: 2rem;
       font-weight: 200;
+      letter-spacing: 2px;
+      margin-top: -1.5rem;
+
+      @include media($medium-screen-up) {
+        font-size: 3rem;
+        margin-top: -3rem;
+      }
+    }
+
+    img {
+      height: auto;
+      width: 800px;
+    }
+
+    .description {
+      font-size: 1.5rem;
+      font-weight: 200;
+      letter-spacing: 1px;
+      margin-top: $base-spacing;
+
+      @include media($medium-screen-up) { font-size: 2rem; }
+    }
+  }
+}
+
+.section {
+  @include outer-container;
+  margin-top: $base-spacing;
+
+  h2 {
+    color: $turquoise;
+    font-size: modular-scale(2);
+    letter-spacing: 1px;
+  }
+
+  p, ul, ol, table {
+    font-size: 1.25em;
+    margin-bottom: $base-spacing;
+    @include media($medium-screen-up) { font-size: 1.45em; }
+  }
+
+  ul, ol {
+    padding-left: $base-spacing;
+  }
+
+  ol { list-style: decimal; }
+  ul { list-style-type: disc; }
+
+  &__inner {
+    margin: $base-spacing;
+
+    @include media($medium-screen-up) {
+      @include span-columns(10);
+      @include shift(1);
     }
   }
 }
